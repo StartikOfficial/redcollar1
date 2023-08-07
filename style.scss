@@ -78,6 +78,9 @@ header {
 .hero {
   background: $dark;
   padding: 48px 24px;
+}
+
+.hero-container {
   gap: 32px;
 }
 
@@ -163,7 +166,7 @@ footer {
   gap: 12px;
 }
 
-.header-container, .hero-container, .features-container, .article-container, .footer-container {
+.header-nav, .hero-container, .features-container, .article-container, .footer-container {
   max-width: 1600px;
   margin: 0 auto;
 }
